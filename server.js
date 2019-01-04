@@ -39,6 +39,6 @@ app.use(passport.session());
 //calling the function exported from the index.js file
 routes(app, passport);
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || https://pinterest-clone-project.herokuapp.com/;
 app.listen(port, function () {
     console.log('Node.js listening on port ' + port + '...');
